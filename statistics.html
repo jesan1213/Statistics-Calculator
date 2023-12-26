@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Statistics Calculator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="statistics.js"></script>
+
+<div class="container">
+
+<h2>Statistics Calculator</h2>
+<p>Enter a list of numbers separated by spaces:</p>
+
+<input type="text" id="numberInput">
+<button onclick="calculate('mean')">Mean</button>
+<button onclick="calculate('variance')">Variance</button>
+<button onclick="calculate('stdDev')">Standard Deviation</button>
+
+<p id="result"></p>
+</div>
+</body>
+</html>
